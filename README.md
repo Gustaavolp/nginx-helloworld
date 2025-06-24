@@ -10,6 +10,12 @@ Este projeto demonstra como fazer o deploy de uma aplicação nginx simples em u
 
 ## Deploy da Aplicação
 
+```bash
+kubectl apply -f deployment.yaml
+```
+```bash
+kubectl apply -f service.yaml
+```
 ### 1. Verificando os Pods
 
 Para verificar se os pods estão rodando:
