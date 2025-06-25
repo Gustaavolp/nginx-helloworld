@@ -75,6 +75,8 @@ Após configurar o port-forward, a aplicação estará disponível em:
 
 ```
 nginx-helloworld/
+├── docs               # Prints
+├── html               # HTML Customizado
 ├── deployment.yaml    # Configuração do deployment
 ├── service.yaml       # Configuração do serviço
 └── README.md          # Documentação
